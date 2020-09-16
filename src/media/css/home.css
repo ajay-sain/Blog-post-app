@@ -1,0 +1,19 @@
+.user-action{
+    width: 100px;
+    padding: 10px;
+    color: #ffffff;
+    background: #28df99;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    float: right;
+}
+
+.post-item{
+    background-color: #f8bd7f;
+    margin: 10px auto;
+    width: 90%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: left;
+}

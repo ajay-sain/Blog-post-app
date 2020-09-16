@@ -1,0 +1,139 @@
+*{
+    font-family: sans-serif;
+    /* margin: 0 auto; */
+    /* width: 100%; */
+    color: #1d2d50;
+}
+
+/* div{
+    width: 100%;
+} */
+
+body{
+    min-height: 40vh; 
+    margin: 0 auto;
+    width: 100%;
+    background-color: floralwhite;
+}
+
+.loading{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    border-top: 5px solid lightcoral;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+@keyframes loading{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.header{
+    background-color: #e94560;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.list {
+    margin: 0px;
+    list-style-type: none;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+}
+
+.list-item {
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    text-align: center;
+    height: 46px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+
+.like{
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    width: 100px;
+    color: blue;
+    background-color: antiquewhite;
+    /* background: none; */
+}
+
+.delete{
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    width: 100px;
+    color: red;
+    background-color: antiquewhite;
+    /* background: none; */
+}
+
+.edit{
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    width: 100px;
+    color: black;
+    background-color: antiquewhite;
+    /* background: none; */
+}
+
+.back{
+    height: 40px;
+    width: 45px;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    position: relative;
+    float: left;
+    background-color: transparent;
+    margin: 0px 20px;
+}
+
+.back span{
+    position: absolute;
+    display: block;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 15px;
+    top: 12px;
+    transform: rotate(45deg);
+    border-bottom: 3px solid antiquewhite;
+    border-left: 3px solid antiquewhite;
+}
+
+.liked{
+    background-color: #292ba8;
+    color: #ffffff;
+}
