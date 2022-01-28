@@ -10,17 +10,17 @@
 } */
 
 body{
-    min-height: 40vh; 
     margin: 0 auto;
     width: 100%;
     background-color: floralwhite;
 }
 
 .loading{
+    display: block;
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    border: none;
+    border: 5px solid;
     border-top: 5px solid lightcoral;
     animation: name duration timing-function delay iteration-count direction fill-mode;
 }
